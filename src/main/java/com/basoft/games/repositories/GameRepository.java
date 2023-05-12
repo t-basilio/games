@@ -3,6 +3,7 @@ package com.basoft.games.repositories;
 import com.basoft.games.entities.Game;
 import com.basoft.games.projections.GameMinProjection;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
